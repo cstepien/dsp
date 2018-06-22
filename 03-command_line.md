@@ -57,7 +57,7 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > 1) `ls alt` is a combo of ls options that lists all contents including hidden ones, in long format, and ordered by most recently edited  
+> > 1) `ls -alt` is a combo of ls options that lists all contents including hidden ones, in long format, and ordered by most recently edited  
 > > 2) `ls -1` displays files and directories 1 per line, easier to read  
 > > 3) `ls -R` displays subdirectories and files in addition to files in working directory  
 > > 4) `ls -F` flags filenames with a slash for directories, * for executable, and other flags  
@@ -69,7 +69,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `xargs` allows for creating an execution pipeline for standard input, for commands that can't directly take standard input.  One example is piping in arguments to `mkdir` using `xargs` : `echo "one two three" | xargs mkdir` will make three new directories (called one, two and three) in the working directory. Typing `echo "one two three" | xargs rmdir` will remove them. 
 
 
 
