@@ -24,13 +24,13 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 > > 2 `mkdir` creating a directory  
 
-> > 3 `rmdir` deleting a directory
-> > 4 `touch` creating a file using `touch` command
-> > 5 `rm` deleting a file
-> > 6 `mv` renaming a file
-> > 7 `ls -a` listing hidden files
-> > 8 `cp` copying a file from one directory to another
-> > 9 `echo` write arguments to output
+> > 3 `rmdir` deleting a directory  
+> > 4 `touch` creating a file using `touch` command  
+> > 5 `rm` deleting a file  
+> > 6 `mv` renaming a file  
+> > 7 `ls -a` listing hidden files  
+> > 8 `cp` copying a file from one directory to another  
+> > 9 `echo` write arguments to output  
 > > 10 `man` opens user manual for the argument
 ---
 
