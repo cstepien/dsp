@@ -20,24 +20,22 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)
 
-> > 1 `pwd` show current working directory path  
-
-> > 2 `mkdir` creating a directory  
-
-> > 3 `rmdir` deleting a directory  
-> > 4 `touch` creating a file using `touch` command  
-> > 5 `rm` deleting a file  
-> > 6 `mv` renaming a file  
-> > 7 `ls -a` listing hidden files  
-> > 8 `cp` copying a file from one directory to another  
-> > 9 `echo` write arguments to output  
-> > 10 `man` opens user manual for the argument
+> > 1) `pwd` show current working directory path  
+> > 2) `mkdir` creating a directory  
+> > 3) `rm -r` deleting a directory with children (`rmdir` will delete empty directories)
+> > 4) `touch` creating a file using `touch` command  
+> > 5) `rm` deleting a file  
+> > 6) `mv` moving a file from one directory to another (and renaming a file if no directory specified)
+> > 7) `ls -a` listing hidden files  
+> > 8) `cp` copying a file from one directory to another  
+> > 9) `echo` write arguments to output  
+> > 10) `man` opens user manual for the argument entered
 ---
 
 ### Q2.  List Files in Unix
 
 What do the following commands do:
-`ls` lists all files in the current working directory
+`ls`
 `ls -a`
 `ls -l`
 `ls -lh`
@@ -45,7 +43,13 @@ What do the following commands do:
 `ls -t`
 `ls -Glp`
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 1) `ls` lists all files and directories in the current working directory  
+> > 2) `ls -a` lists files beginning with `.` in addition to the above `ls` files and directories  
+> > 3) `ls -l` lists files and directories with more details about each object  
+> > 4) `ls -lh` lists files and directories with more details, and file size in human-readable format (K, M, G)  
+> > 5) `ls -lah` lists all content including hidden files, in long format, human-readable  
+> > 6) `ls -t` lists files and directories in the order they were last edited  
+> > 7) `ls -Glp` lists files and directories in long format, with a backslash before directories and showing files and directories in different colors
 
 ---
 
@@ -53,7 +57,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 1) `ls alt` is a combo of ls options that lists all contents including hidden ones, in long format, and ordered by most recently edited  
+> > 2) `ls -1` displays files and directories 1 per line, easier to read  
+> > 3) `ls -R` displays subdirectories and files in addition to files in working directory  
+> > 4) `ls -F` flags filenames with a slash for directories, * for executable, and other flags  
+> > 5) `ls -S` sort files by size
 
 ---
 
