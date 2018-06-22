@@ -20,8 +20,10 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)
 
-> > 1 `pwd` show current working directory path
-> > 2 `mkdir` creating a directory
+> > 1 `pwd` show current working directory path  
+
+> > 2 `mkdir` creating a directory  
+
 > > 3 `rmdir` deleting a directory
 > > 4 `touch` creating a file using `touch` command
 > > 5 `rm` deleting a file
