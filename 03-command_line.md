@@ -69,8 +69,8 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > `xargs` allows for creating an execution pipeline for standard input, for commands that can't directly take standard input.  One example is piping in arguments to `mkdir` using `xargs`.  
-`echo "one two three" | xargs mkdir` will make three new directories (called one, two and three) in the working directory. Typing `echo "one two three" | xargs rmdir` will remove them. 
+> > `xargs` allows for creating an execution pipeline for standard input. It converts standard input into arguments for a command. One example is piping in arguments to `cat` using `xargs`.  
+`echo file1 file2 | xargs cat` will print the contents of file1 and file2. Without `xargs` the output would be "file1 file2" (the names of the files only). 
 
 
 
