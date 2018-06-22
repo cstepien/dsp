@@ -6,9 +6,9 @@ Please follow and complete the free online [Bash Scripting Tutorial](https://rya
 
 ---
 
-### Q1.  Cheat Sheet of Commands  
+### Q1.  Cheat Sheet of Commands
 
-Here's a list of items with which you should be familiar:  
+Here's a list of items with which you should be familiar:
 * show current working directory path
 * creating a directory
 * deleting a directory
@@ -18,28 +18,36 @@ Here's a list of items with which you should be familiar:
 * listing hidden files
 * copying a file from one directory to another
 
-Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
+Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)
+
+> > 1 `pwd` show current working directory path
+> > 2 `mkdir` creating a directory
+> > 3 `rmdir` deleting a directory
+> > 4 `touch` creating a file using `touch` command
+> > 5 `rm` deleting a file
+> > 6 `mv` renaming a file
+> > 7 `ls -a` listing hidden files
+> > 8 `cp` copying a file from one directory to another
+> > 9 `echo` write arguments to output
+> > 10 `man` opens user manual for the argument
+---
+
+### Q2.  List Files in Unix
+
+What do the following commands do:
+`ls`
+`ls -a`
+`ls -l`
+`ls -lh`
+`ls -lah`
+`ls -t`
+`ls -Glp`
 
 > > REPLACE THIS TEXT WITH YOUR RESPONSE
 
 ---
 
-### Q2.  List Files in Unix   
-
-What do the following commands do:  
-`ls`  
-`ls -a`  
-`ls -l`  
-`ls -lh`  
-`ls -lah`  
-`ls -t`  
-`ls -Glp`  
-
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
----
-
-### Q3.  More List Files in Unix  
+### Q3.  More List Files in Unix
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
@@ -47,11 +55,11 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 ---
 
-### Q4.  Xargs   
+### Q4.  Xargs
 
 What does `xargs` do? Give an example of how to use it.
 
 > > REPLACE THIS TEXT WITH YOUR RESPONSE
 
- 
+
 
