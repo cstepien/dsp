@@ -22,7 +22,7 @@ live = preg[preg.outcome == 1]
 firsts = live[live.birthord == 1]
 others = live[live.birthord != 1]
 
-CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lbs)
+CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb)
 ```
 
 Cohen's D for weight of first born babies vs. other babies (-0.089) is larger than that of pregnancy length for first babies vs. other babies (0.029). 
