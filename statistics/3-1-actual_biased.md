@@ -31,3 +31,4 @@ pmf.Mean()
 biased.Mean()
 
 ```
+The acutal mean is 1.0, while the biased mean is 2.4. That's a pretty big difference. 
