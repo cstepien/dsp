@@ -24,3 +24,5 @@ others = live[live.birthord != 1]
 
 CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lbs)
 ```
+
+Cohen's D for weight of first born babies vs. other babies (-0.089) is larger than that of pregnancy length for first babies vs. other babies (0.029). 
